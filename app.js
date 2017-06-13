@@ -6,7 +6,7 @@ var io=require("socket.io")(http);
 var Log=require('log'),
 	log=new Log("debug")
 
-var port=process.env.PORT || 3000;
+var port=process.env.PORT || 28368;
 
 app.use(express.static(__dirname +"/public"));
 
